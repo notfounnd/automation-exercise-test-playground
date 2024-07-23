@@ -19,7 +19,7 @@ app.use('/static', express.static('static'))
 
 app.get('/', function (req, res) {
   res.render('Home', {
-    title: 'UI Test Automation Playground',
+    title: 'Automation Exercise',
     homeActive: true
   })
 })
