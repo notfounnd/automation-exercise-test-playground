@@ -164,6 +164,30 @@ app.get('/alerts', function (req, res) {
   })
 })
 
+app.get('/upload', function (req, res) {
+  res.render('Upload', {
+    title: 'File Upload'
+  })
+})
+
+app.get('/animation', function (req, res) {
+  res.render('Animation', {
+    title: 'Animated Button'
+  })
+})
+
+app.get('/disabledinput', function (req, res) {
+  res.render('DisabledInput', {
+    title: 'Disabled Input'
+  })
+})
+
+app.get('/autowait', function (req, res) {
+  res.render('AutoWait', {
+    title: 'Auto Wait'
+  })
+})
+
 app.get('/dynamictable', function (req, res) {
 
   function genmetric(m)
